@@ -1,0 +1,27 @@
+{
+	"name": "svelte-kit-site-map",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"sitemap": "npx tsx ./src/scripts/generate-sitemap.ts"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^5.0.0",
+		"@neoconfetti/svelte": "^2.0.0",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/node": "^22.5.0",
+		"svelte": "^4.2.7",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"directory-tree": "^3.5.2",
+		"fs": "^0.0.1-security",
+		"tsx": "^4.19.0",
+		"typescript": "^5.5.4"
+	}
+}
